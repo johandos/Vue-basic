@@ -4,17 +4,20 @@
 <!--    <p>Un Parrafo</p>-->
 <!--    <app-directivas></app-directivas>-->
 <!--    <input type="text" v-power-mode>-->
-    <app-computed-watch></app-computed-watch>
+<!--    <app-computed-watch></app-computed-watch>-->
+    <app-cmp-padre></app-cmp-padre>
   </div>
 </template>
 <script>
   //import Directivas from './components/Directivas'
-  import ComputedWatch from './components/ComputedWatch'
+  // import ComputedWatch from './components/ComputedWatch'
+  import CmpPadre from './components/Propiedades/CmpPadre'
   export default {
     name: 'App',
     components: {
       /*appDirectivas: Directivas*/
-      appComputedWatch: ComputedWatch,
+      // appComputedWatch: ComputedWatch,
+      appCmpPadre: CmpPadre,
     }
   }
 </script>
